@@ -5,6 +5,10 @@ public class TweeterFollowerController{
 	public void follow(@RequestParam String id){
 
 	}
+	@PostMapping("/follow")
+	public void follow(@RequestParam String id){
+		
+	}
 
 
 }
